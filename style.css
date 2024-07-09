@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#solor {
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+/* .background{
+    transform: translateZ(-40px) scale(5);
+} */
+
+.backgroundImage {
+    position: absolute;
+    height: 120%;
+    width: 100%;
+    
+}
+
+.container img {
+    position: absolute;
+    top: 0;
+
+}
+
+h1 {
+    position: absolute;
+    /* top:5rem; */
+    color: #ffffff;
+    font-size: 5rem;
+    top: 60px;
+}
+
+section {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    /* padding: 0rem 1rem; */
+}
+
+.secHeading {
+    font-size: 2rem;
+    padding:  10px ;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    /* font-size: 1.2rem; */
+    padding: 15px;
+    margin: 5px 0;
+}
+.planetsList{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    gap:30px;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    padding-top: 20px;
+    font-style: italic;
+}
+
+.allplanet{
+    padding-left:50px;
+    
+}
+.allplanet li{
+    padding: 5px 0;
+}
+
+
+.bg {
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+    /* background-attachment: local; */
+    background-position: center;
+    background-size: cover;
+    height: 500px;
+}
+
+.miniHead {
+    position: absolute;
+    background-color: white;
+    color: black;
+    padding: 5px 15px;
+    top: 45%;
+    left: 48%;
+    font-weight: 600;
+    border-radius: 15px;
+}
+
+.bg1 {
+    background-image: url(sun.png);
+}
+
+.bg2 {
+    background-image: url(mercury.png);
+}
+
+.bg3 {
+    background-image: url(venus.png);
+}
+
+.bg4 {
+    background-image: url(earth.png);
+}
+
+.bg5 {
+    background-image: url(mars.png);
+}
+
+.bg6 {
+    background-image: url(jupiter.png);
+}
+
+.bg7 {
+    background-image: url(saturn.png);
+}
+
+.bg8 {
+    background-image: url(uranus.png);
+}
+
+.bg9 {
+    background-image: url(neptune.png);
+}
+
+.bg10 {
+    background-image: url(pluto.png);
+}
+
+
+
+
+
+/* @media (max-width:1000px) {
+
+    h1 {
+        position: absolute;
+        color: #ffffff;
+        font-size: 2rem;
+        top: 30px;
+    }
+
+    .container {
+        position: relative;
+        height: 30%;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transform-style: preserve-3d;
+        z-index: -1;
+    }
+    .backgroundImage {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        
+    }
+    .bg {
+        position: relative;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-attachment: scroll;
+        background-position: center;
+        height: 500px;
+    }
+    .miniHead{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+    }
+} */
+
